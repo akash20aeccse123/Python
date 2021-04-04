@@ -1,6 +1,6 @@
-#Program to print the area of triangle
+#Area of Triangle
 
-b=int(input("Enter Base:"))
-h=int(input("Enter height:"))
-area=(0.5*b*h)
-print("Area of Triangle=",area)
+b=float(input('enter base:'))
+h=float(input('enter height:'))
+area=0.5*b*h
+print('Area of Triangle=',area)

@@ -1,8 +1,7 @@
-#Program to calculte volume of cuboid
+#Calculate volume of cuboid
+l=float(input('enter length:'))
+b=float(input('enter breadth:'))
+h=float(input('enter height:'))
 
-l=float(input("Enter Length:"))
-b=float(input("Enter Breadth:"))
-h=float(input("Enter Height:"))
-
-vol=(l*b*h)
-print("Volume of Cuboid =",vol)
+vol=l*b*h
+print('Volume of Cuboid=',vol)

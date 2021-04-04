@@ -1,5 +1,3 @@
-#Program to calculate and display square of a number
-
-n=int(input("Enter any Number:"))
+n=int(input('enter number:'))
 sq=n*n
-print("Square of the Number=",sq)
+print('Square of the Number is=',sq)

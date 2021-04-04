@@ -1,9 +1,8 @@
-#Program to calculate Simple Interest
+#Calculate simple interest
+p=int(input('Enter amount:'))
+r=int(input('Enter rate:'))
+t=int(input('Enter time:'))
 
-p=int(input("Enter Amount:"))
-r=int(input("Enter Rate:"))
-t=int(input("Enter Time:"))
+si=p*r*t/100
+print('Simple interest=',si)
 
-si=(p*r*t/100)
-
-print("Simple Interest =",si)

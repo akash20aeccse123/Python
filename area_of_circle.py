@@ -1,6 +1,5 @@
-#Program to calculate and display the area of circle
-
-r=int(input("Enter Radius:"))
+#Calculate area of circle
+r=float(input('Enter radius:'))
 pi=3.14
 area=pi*r*r
-print("Area of Circle=",area)
+print('Area of Circle=',area)
